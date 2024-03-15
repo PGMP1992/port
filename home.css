@@ -38,7 +38,7 @@ article {
   margin:12%;
 }
 
-a{ 
+a { 
       font-size: 15px; 
       background-color: var(--font);
       color: var(--invertfont);
@@ -51,7 +51,7 @@ a{
       text-decoration: none;
   }
 
-  p{
+  p {
     margin-bottom:40px;
   }
 
