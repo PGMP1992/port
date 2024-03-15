@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+   <!--<p> Head </p> -->
+   <title>Portfolio</title>
+   <div style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</div>
+</head>
+
+<body>
+  
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="home.html" target="inlineFrame" onclick="closeNav()">Home</a>
+    <a href="about.html" target="inlineFrame" onclick="closeNav()">About</a>
+    <a href="work.html" target="inlineFrame" onclick="closeNav()">Experience</a>
+    <a href="education.html" target="inlineFrame" onclick="closeNav()">Education</a>
+    <a href="contact.html" target="inlineFrame" onclick="closeNav()">Contact</a>
+  </div>
+  
+  <div id="content">
+    <!--style = "border:none"  Insert this after finishing the website -->
+    <iframe name="inlineFrame" src="home.html"  height="670" width="100%" title="main">  </iframe>
+  </div>
+  
+</body>
+</html> 
+
+

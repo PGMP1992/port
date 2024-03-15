@@ -1,0 +1,81 @@
+:root {
+  --bar: #012a53;
+  --back: black;
+  --white: #ffffff;
+  --font: #8e948e;
+  --invertfont: white;
+  --a: #097ff5;
+}
+
+body {
+  display: flexbox;
+  float:bottom;
+  color: var(--font);
+  background-color: var(--back);
+  font-family: "Lato", sans-serif;
+  margin: 5%;
+}
+
+h1, h3{
+  color:white;
+}
+
+/*--------------------- Skills bars -----------------------*/
+
+  /* Make sure that padding behaves as expected */
+* {
+  box-sizing:border-box
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  color: var(--back);
+  text-align: center;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 2px; /* Add top padding */
+  padding-bottom: 2px; /* Add bottom padding */
+
+}
+
+.front {
+  width: 30%; 
+  background-color: var(--a);
+} 
+
+.c{
+  width: 80%; 
+  background-color: var(--a);
+} 
+
+.react { 
+  width: 10%; 
+  background-color: var(--a);
+} 
+
+.sql {
+  width: 80%; 
+  background-color: var(--a);
+} 
+
+/* ------------ Skill bottom ----------*/
+
+#cv {
+  margin-top: 50px;
+  align-items: right;
+}
+
+a { 
+  font-size: 15px; 
+  background-color: var(--font);
+  color: var(--invertfont);
+  width: auto;
+  height: 30px;
+  padding: 10px;
+  transition: 0.3s;
+  text-decoration: none;
+}
