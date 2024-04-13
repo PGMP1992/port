@@ -1,7 +1,6 @@
 :root {
   --bar: #012a53;
   --back: black;
-  --white: #ffffff;
   --font: #8e948e;
   --invertfont: white;
   --a: #097ff5;
@@ -9,7 +8,7 @@
 
 body {
   display: flexbox;
-  float:bottom;
+/*  float:bottom; */
   color: var(--font);
   background-color: var(--back);
   font-family: "Lato", sans-serif;
@@ -18,6 +17,10 @@ body {
 
 h1, h3{
   color:white;
+}
+
+p{
+  padding-top: 20px;
 }
 
 /*--------------------- Skills bars -----------------------*/
@@ -33,13 +36,6 @@ h1, h3{
   background-color: #ddd; /* Grey background */
   color: var(--back);
   text-align: center;
-}
-
-.skills {
-  text-align: right; /* Right-align text */
-  padding-top: 2px; /* Add top padding */
-  padding-bottom: 2px; /* Add bottom padding */
-
 }
 
 .front {
@@ -73,9 +69,16 @@ a {
   font-size: 15px; 
   background-color: var(--font);
   color: var(--invertfont);
+  font-weight: normal;
   width: auto;
   height: 30px;
   padding: 10px;
   transition: 0.3s;
   text-decoration: none;
+}
+
+a:hover {
+  color : var(--invertfont);
+  text-decoration: none; 
+  background-color: var(--a);
 }

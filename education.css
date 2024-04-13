@@ -29,9 +29,10 @@ a {
   color: var(--a);
 }
 
-img {
+div.slideshow-container {
   width: 80%;
   height: auto;
+  margin: 2%;
 }
 
 /* On smaller screens, decrease text size */

@@ -1,7 +1,5 @@
 :root {
-  --bar: #012a53;
   --back: black;
-  --white: #ffffff;
   --font: #8e948e;
   --invertfont: white;
   --a: #097ff5;
@@ -53,14 +51,6 @@ a {
     background-color: var(--a);
   }
   
-  /* Style the container/contact section */
-  .container {
-    border-radius: 5px;
-    background-color: var(--back);
-    color: var(--font);
-    padding: 10px;
-  }
-  
   /* Create two columns that float next to eachother */
   .column {
     float: left;
@@ -85,14 +75,13 @@ a {
   }
 
    /* Style the bottom navigation bar */
-.bottomnav {
+#bottomnav {
   overflow: hidden;
   background-color: var(--back);
   color: var(--white);
-  font-family: "Lato", sans-serif;
 }
 
-/* Style the topnav links */
+/* Style the nav links */
 .bottomnav a {
   float: left;
   display: block;
