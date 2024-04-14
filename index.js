@@ -3,7 +3,7 @@
 Navigation bar*/
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
-  }
+}
 
   /* index.html 
   Navigation bar*/  

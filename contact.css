@@ -66,8 +66,9 @@ a {
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+  /* Responsive layout - when the screen is less than 600px wide, 
+  make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
       margin-top: 0;
@@ -83,7 +84,7 @@ a {
 
 /* Style the nav links */
 .bottomnav a {
-  float: left;
+    float: left;
   display: block;
   color: white;
   text-decoration: none;
@@ -94,6 +95,11 @@ a {
   width: 20px; 
   height: 20px; 
   float:left;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
 }
 
 
