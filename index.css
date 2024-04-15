@@ -12,14 +12,17 @@ body {
 }
 
 .sidenav{
+  position: sticky;
   padding: 10px;
+  top: 0px;
+  background-color: var(--back);
 }
 
 .sidenav a{
   color: var(--font);
   text-decoration: none;
-  padding: 5px;
   transition: 0.3s;
+  padding: 0px 10px;
 }
 
 #contact {

@@ -3,6 +3,7 @@
 Navigation bar*/
 function openNav() {
     document.getElementById("mySidenav").style.width = "max-width";
+
 }
 
   /* index.html 

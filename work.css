@@ -30,7 +30,7 @@ h4.job {
   float: left;
   background-color: var(--back);
   color: var(--font);
-  width: 30%;
+  width: 20%;
   height: 300px;
 }
 
