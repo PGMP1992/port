@@ -5,10 +5,6 @@
   --invertfont: white;
 } 
 
-* {
-  display :border-box;
-}
-
 body { 
   font-family: "Lato", sans-serif;
   background-color: var(--back);
@@ -16,18 +12,21 @@ body {
   margin: 5%; 
 }
 
-left{
-  float :left;
-  width: 50%;
+.banner{
+  position : relative;
 }
 
-right{
-  float :left;
+.banner .description{
+  position :absolute;
+  right: 30%;
+  bottom: 2%;
+  padding: 10px;
+  background-color: var(--back);
+  color : var(--font)
 }
 
-img{
-  max-width: 80%;
-  height: auto;
+.banner .img{
+  max-width: 100%;
 }
 
 a { 
@@ -49,11 +48,10 @@ a {
     margin-bottom:30px;
   }
 
-  
   @media (max-width: 600px) {
     section {
       -webkit-flex-direction: column;
       flex-direction: column;
     }
-  }
+  } 
   
