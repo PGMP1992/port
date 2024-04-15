@@ -13,7 +13,7 @@ body {
      font-family: "Lato", sans-serif;
      background-color: var(--back);
      color: var(--font);
-     margin: 20px;
+     margin: 5%;
 }
 
 h1, h2, h3{
@@ -84,11 +84,15 @@ a {
 
 /* Style the nav links */
 .bottomnav a {
-    float: left;
+  float: left;
   display: block;
-  color: white;
+  color:var(--font);
   text-decoration: none;
   padding: 10px;
+}
+
+.bottomnav a:hover {
+  color: var(--invertfont)
 }
 
 .bottomnav img {

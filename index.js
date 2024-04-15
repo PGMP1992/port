@@ -2,13 +2,13 @@
 /* index.html  
 Navigation bar*/
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "max-width";
 }
 
   /* index.html 
   Navigation bar*/  
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav").style.width = "max-width";
   }
 
 /* index.html 
@@ -39,7 +39,7 @@ function openTab(evt, company) {
     tablinks[i].className = tablinks[i].className.replace("active", "");
   }
   
-  document.getElementById(company).style.display = "block";
+  document.getElementById(company).style.display = "inline";
   evt.currentTarget.className += " active";
 }
 
