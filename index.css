@@ -1,4 +1,4 @@
-/* :root {
+ :root {
   --back: black;
   --font: #8e948e;
   --invertfont: white;
@@ -6,12 +6,6 @@
   --banner: #1a1919;
   }
 
-body { 
-  font-family: "Lato", sans-serif;
-  color:var(--font);
-  background-color: var(--back);
-}
-*/
 .sidenav{
   position: sticky;
   padding: 10px;
@@ -20,34 +14,21 @@ body {
 }
 
 .sidenav a{
-  color: var(--invertfont);
+  color: var(--invertfont); 
   text-decoration: none;
   transition: 0.3s;
   padding: 0px 10px;
 }
 
-#contact {
+.sidenav a:hover{
+  color: var(--invertfont);
+  background-color: var(--a); 
+}
+
+.leftPanel {
+  float:left;
+}
+
+.rightPanel {
   float:right;
 }
-
-.sidenav a:hover{
-  color: var(--a);
-}
-
-a { 
-  font-size: 15px; 
-  background-color: var(--font);
-  color: var(--invertfont);
-  font-weight: normal;
-  width: auto;
-  height: 30px;
-  padding: 10px;
-  transition: 0.3s;
-  text-decoration: none;
-}
-
-a:hover {
-  color : var(--invertfont);
-  text-decoration: none; 
-  background-color: var(--a);
-} */
