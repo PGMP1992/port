@@ -23,41 +23,6 @@ p{
   padding-top: 20px;
 }
 
-/*--------------------- Skills bars -----------------------*/
-
-  /* Make sure that padding behaves as expected */
-* {
-  box-sizing:border-box
-}
-
-/* Container for skill bars */
-.container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
-  color: var(--back);
-  text-align: center;
-}
-
-.front {
-  width: 30%; 
-  background-color: var(--a);
-} 
-
-.c{
-  width: 80%; 
-  background-color: var(--a);
-} 
-
-.react { 
-  width: 10%; 
-  background-color: var(--a);
-} 
-
-.sql {
-  width: 80%; 
-  background-color: var(--a);
-} 
-
 /* ------------ Skill bottom ----------*/
 
 #cv {

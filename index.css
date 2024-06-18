@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --back: black;
   --font: #8e948e;
   --invertfont: white;
@@ -11,7 +11,7 @@ body {
   color:var(--font);
   background-color: var(--back);
 }
-
+*/
 .sidenav{
   position: sticky;
   padding: 10px;
@@ -34,8 +34,20 @@ body {
   color: var(--a);
 }
 
-iframe {
-    width: 100%;
-    height: 50em;
-    border: none;
-} 
+a { 
+  font-size: 15px; 
+  background-color: var(--font);
+  color: var(--invertfont);
+  font-weight: normal;
+  width: auto;
+  height: 30px;
+  padding: 10px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+a:hover {
+  color : var(--invertfont);
+  text-decoration: none; 
+  background-color: var(--a);
+} */
