@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+   <title>Contact</title>
+</head>
+
+<body>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="index.js"></script>
+    
+    <h2>Contact</h2>
+
+    <div class="container">
+        <div class="row">
+            
+            <div class="column">
+                <img id="map" src="images/malmo2.jpg">
+            </div>
+            
+            <div class="column">
+                <form>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Name.." required>
+    
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Last name.." required>
+    
+                    <label for="country">Country</label>
+                    <select id="country" name="country" required>
+                        <option value="Sweden">Sweden</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="UK">UK</option>
+                    </select>
+    
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="bottomnav">
+        <a href="#"> Facebook<img src="images\fbLogo.png"></a>
+        <a href="#"> Instagram <img src="images\InstagramLogo.png"></a>
+        <a href="mailto:pedro@dkltd.net">
+            <span class="glyphicon glyphicon-envelope"></span> Email</a>
+        <a href="#"><span class="glyphicon glyphicon-phone-alt"> </span>: 0123 456789</a>
+        <a href="#"><span class="glyphicon glyphicon-map-marker"></span> Address</a>
+        <a href="images\pedro.docx" download right="0"><span class="glyphicon glyphicon-download-alt"></span> Download Resume</a>
+    </footer>
+
+</body>
+</html>
